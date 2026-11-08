@@ -1,0 +1,24 @@
+.omcp .omcp-body { max-width: 1200px; margin-top: 16px; }
+.omcp .omcp-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(420px, 1fr)); gap: 16px; margin-top: 16px; }
+.omcp .omcp-card { background: #fff; border: 1px solid #dcdcde; border-radius: 6px; padding: 16px 20px; }
+.omcp .omcp-card h3 { margin-top: 0; }
+.omcp .omcp-code { position: relative; background: #1d2327; color: #f0f0f1; border-radius: 4px; margin: 8px 0; }
+.omcp .omcp-code pre { margin: 0; padding: 12px 80px 12px 12px; white-space: pre-wrap; word-break: break-all; font-size: 12px; line-height: 1.5; }
+.omcp .omcp-code .omcp-copy { position: absolute; top: 6px; right: 6px; }
+.omcp .omcp-inline { display: flex; gap: 8px; align-items: center; margin: 8px 0; }
+.omcp table.widefat { margin-bottom: 24px; }
+.omcp .omcp-tools { margin-bottom: 16px; }
+.omcp .omcp-tools legend { padding: 0 6px; }
+.omcp .omcp-toggle-all { font-weight: normal; margin-left: 8px; color: #646970; }
+.omcp .omcp-tool { display: grid; grid-template-columns: 20px 240px 90px 1fr; gap: 8px; align-items: baseline; padding: 4px 0; border-bottom: 1px solid #f0f0f1; }
+.omcp .omcp-badge { font-size: 11px; padding: 1px 6px; border-radius: 10px; background: #e7f5ea; color: #00692b; text-align: center; }
+.omcp .omcp-badge-write { background: #fcf3e3; color: #8a5a00; }
+.omcp .omcp-badge-danger { background: #fbeaea; color: #a00; }
+.omcp .omcp-ok { color: #00692b; }
+.omcp .omcp-err { color: #a00; }
+.omcp .omcp-newkey { padding-bottom: 8px; }
+@media (max-width: 782px) {
+	.omcp .omcp-grid { grid-template-columns: 1fr; }
+	.omcp .omcp-tool { grid-template-columns: 20px 1fr; }
+	.omcp .omcp-tool .description { grid-column: 2; }
+}
